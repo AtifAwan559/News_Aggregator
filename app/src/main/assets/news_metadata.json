@@ -1,0 +1,49 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Tech Giants Reveal New AI Breakthrough",
+      "description": "A major shift in artificial intelligence was announced today by leading tech companies.",
+      "content": "Full content of the breakthrough news about AI and its impact on the industry...",
+      "category": "Tech",
+      "imageUrl": "https://example.com/images/ai.jpg",
+      "publishedAt": "2023-10-27T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Local Team Wins Championship",
+      "description": "In a stunning victory, the local underdogs took home the trophy last night.",
+      "content": "Full story on the championship match, key players, and the winning goal...",
+      "category": "Sports",
+      "imageUrl": "https://example.com/images/sports.jpg",
+      "publishedAt": "2023-10-27T11:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Global Markets Face Volatility",
+      "description": "Economic shifts cause uncertainty across major stock exchanges.",
+      "content": "Detailed analysis of market trends and expert predictions for the next quarter...",
+      "category": "Business",
+      "imageUrl": "https://example.com/images/business.jpg",
+      "publishedAt": "2023-10-27T09:15:00Z"
+    },
+    {
+      "id": 4,
+      "title": "SpaceX Launches Next-Gen Satellite",
+      "description": "The latest mission successfully deployed advanced communication hardware into orbit.",
+      "content": "Coverage of the launch sequence, mission objectives, and future plans for the constellation...",
+      "category": "Tech",
+      "imageUrl": "https://example.com/images/space.jpg",
+      "publishedAt": "2023-10-26T22:45:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Health Trends: The Rise of Plant-Based Diets",
+      "description": "Nutritionists discuss the long-term benefits and challenges of veganism.",
+      "content": "A deep dive into dietary research, environmental impact, and health outcomes...",
+      "category": "Health",
+      "imageUrl": "https://example.com/images/health.jpg",
+      "publishedAt": "2023-10-26T08:00:00Z"
+    }
+  ]
+}
