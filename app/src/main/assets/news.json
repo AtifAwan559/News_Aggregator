@@ -1,0 +1,147 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "Global Summit Addresses Climate Emergency",
+      "summary": "World leaders gather in Geneva to discuss urgent actions to curb carbon emissions.",
+      "content": "GENEVA — Heads of state from over 100 countries have convened for an emergency climate summit. The primary focus is on accelerating the transition to renewable energy and providing financial support to developing nations most affected by climate change.",
+      "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+      "author": "Elena Rodriguez",
+      "publishedAt": "2024-05-24T10:00:00Z",
+      "category": "World",
+      "isTrending": true
+    },
+    {
+      "id": "2",
+      "title": "The Rise of Synthetic Intelligence",
+      "summary": "A deep dive into how new AI models are mimicking human reasoning.",
+      "content": "SILICON VALLEY — A new generation of Large Language Models (LLMs) is pushing the boundaries of what machines can 'think'. These models, termed Synthetic Intelligence (SI), aren't just predicting the next word; they are demonstrating emergent reasoning capabilities.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+      "author": "Dr. Aris Thorne",
+      "publishedAt": "2024-05-24T08:30:00Z",
+      "category": "Technology",
+      "isTrending": true
+    },
+    {
+      "id": "3",
+      "title": "Why the Global Economy is Cooling Down",
+      "summary": "Central banks face a tough balancing act between inflation and recession.",
+      "content": "LONDON — Economic indicators across the globe are flashing red. As central banks continue to raise interest rates to combat stubborn inflation, the side effect is a noticeable slowdown in consumer spending and industrial output.",
+      "imageUrl": "https://images.unsplash.com/photo-1611974714013-3c7457440cc0",
+      "author": "Marcus Sterling",
+      "publishedAt": "2024-05-23T15:45:00Z",
+      "category": "Business",
+      "isTrending": true
+    },
+    {
+      "id": "4",
+      "title": "The Future of Sustainable Architecture",
+      "summary": "Building for a greener tomorrow with bio-materials and energy-neutral designs.",
+      "content": "In a world grappling with climate change, the architectural landscape is undergoing a radical transformation. Designers are increasingly turning to bio-materials like mushroom mycelium and hempcrete to create structures that are not only sustainable but actually carbon-negative.",
+      "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+      "author": "Julianne Thorne",
+      "publishedAt": "2024-05-25T11:20:00Z",
+      "category": "Opinion",
+      "isTrending": true
+    },
+    {
+      "id": "5",
+      "title": "Mental Health in the Digital Age",
+      "summary": "Navigating the complexities of social media and its impact on our well-being.",
+      "content": "The digital age has brought us closer than ever before, but it has also introduced new challenges for our mental health. The constant pressure to present a curated version of ourselves on social media can lead to feelings of inadequacy and anxiety.",
+      "imageUrl": "https://images.unsplash.com/photo-1493836512294-502baa1986e2",
+      "author": "Dr. Sarah Chen",
+      "publishedAt": "2024-05-25T09:15:00Z",
+      "category": "Opinion",
+      "isTrending": true
+    },
+    {
+      "id": "6",
+      "title": "Rethinking Urban Transportation",
+      "summary": "Beyond cars: The shift towards micro-mobility and pedestrian-centric cities.",
+      "content": "Our cities are choked with traffic and pollution. It's time to rethink how we move. The rise of micro-mobility options like e-bikes and scooters, combined with investments in better public transit, offers a path towards cleaner and more livable urban environments.",
+      "imageUrl": "https://images.unsplash.com/photo-1519003722824-194d4455a60c",
+      "author": "Liam Vance",
+      "publishedAt": "2024-05-24T16:45:00Z",
+      "category": "Opinion",
+      "isTrending": true
+    },
+    {
+      "id": "7",
+      "title": "The Importance of Data Privacy",
+      "summary": "In an era of big data, protecting our personal information is more critical than ever.",
+      "content": "Our personal data is being harvested at an unprecedented scale. From our browsing habits to our financial records, everything is being tracked. We need stronger regulations and better tools to empower individuals to take control of their digital identities.",
+      "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3",
+      "author": "Aisha Khan",
+      "publishedAt": "2024-05-24T14:10:00Z",
+      "category": "Opinion",
+      "isTrending": true
+    },
+    {
+      "id": "8",
+      "title": "The End of Fast Fashion?",
+      "summary": "Consumer trends are shifting towards ethical consumption and slow fashion.",
+      "content": "The environmental and human cost of fast fashion is staggering. However, we are seeing a heartening shift in consumer behavior. More and more people are choosing to buy less, choose well, and make it last, favoring ethical and sustainable brands.",
+      "imageUrl": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b",
+      "author": "Elena Rossi",
+      "publishedAt": "2024-05-23T12:00:00Z",
+      "category": "Opinion",
+      "isTrending": true
+    },
+    {
+      "id": "9",
+      "title": "The Role of AI in Creative Industries",
+      "summary": "Will AI replace artists, or serve as a powerful new tool for human creativity?",
+      "content": "The emergence of generative AI is sending ripples through the creative world. While some fear that AI will replace human artists, many others see it as a powerful new tool that can augment human creativity and push the boundaries of what's possible in art and design.",
+      "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe",
+      "author": "Mark Sterling",
+      "publishedAt": "2024-05-23T10:30:00Z",
+      "category": "Opinion",
+      "isTrending": true
+    },
+    {
+      "id": "10",
+      "title": "Protecting Our Oceans",
+      "summary": "The urgent need for global cooperation to preserve marine ecosystems.",
+      "content": "Our oceans are under threat from pollution, overfishing, and climate change. Protecting these vital ecosystems requires a concerted global effort. We need to create more marine protected areas and transition to sustainable fishing practices before it's too late.",
+      "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5",
+      "author": "Dr. Fiona Tan",
+      "publishedAt": "2024-05-22T15:00:00Z",
+      "category": "Opinion",
+      "isTrending": true
+    },
+    {
+      "id": "11",
+      "title": "The Future of Education",
+      "summary": "How technology and personalized learning are reshaping the classroom.",
+      "content": "The traditional classroom model is being disrupted by technology. Personalized learning platforms, powered by AI, are allowing students to learn at their own pace and in their own way, making education more accessible and effective for everyone.",
+      "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7",
+      "author": "Prof. Arthur Miller",
+      "publishedAt": "2024-05-22T08:45:00Z",
+      "category": "Opinion",
+      "isTrending": true
+    },
+    {
+      "id": "12",
+      "title": "The Global Impact of Renewable Energy",
+      "summary": "Transitioning to green energy is not just about the climate; it's about economic security.",
+      "content": "The shift towards renewable energy is accelerating. Beyond its environmental benefits, green energy offers a path towards energy independence and economic security for nations around the world, creating millions of new jobs in the process.",
+      "imageUrl": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e",
+      "author": "Carlos Mendez",
+      "publishedAt": "2024-05-21T13:20:00Z",
+      "category": "Opinion",
+      "isTrending": true
+    },
+    {
+      "id": "13",
+      "title": "Space Exploration: Why It Matters",
+      "summary": "Looking beyond Earth to understand our place in the universe.",
+      "content": "Space exploration is often criticized for its cost, but its value goes far beyond the price tag. By exploring the cosmos, we are pushing the limits of human knowledge and technology, and gaining a better understanding of our own planet and its place in the universe.",
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+      "author": "Sarah Jenkins",
+      "publishedAt": "2024-05-21T09:00:00Z",
+      "category": "Opinion",
+      "isTrending": true
+    }
+  ]
+}

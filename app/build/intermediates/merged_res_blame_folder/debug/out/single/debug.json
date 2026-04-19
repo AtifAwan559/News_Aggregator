@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.news.app-merged_res-39:/layout_activity_main.xml.flat",
+        "source": "com.example.news.app-main-41:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.news.app-merged_res-39:/drawable_bg_category_badge.xml.flat",
+        "source": "com.example.news.app-main-41:/drawable/bg_category_badge.xml"
+    },
+    {
+        "merged": "com.example.news.app-merged_res-39:/navigation_nav_graph.xml.flat",
+        "source": "com.example.news.app-main-41:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.example.news.app-merged_res-39:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.news.app-main-41:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.news.app-merged_res-39:/layout_fragment_news_feed.xml.flat",
+        "source": "com.example.news.app-main-41:/layout/fragment_news_feed.xml"
+    },
+    {
+        "merged": "com.example.news.app-merged_res-39:/layout_fragment_bookmarks.xml.flat",
+        "source": "com.example.news.app-main-41:/layout/fragment_bookmarks.xml"
+    },
+    {
+        "merged": "com.example.news.app-merged_res-39:/drawable_ic_bookmark_filled.xml.flat",
+        "source": "com.example.news.app-main-41:/drawable/ic_bookmark_filled.xml"
+    },
+    {
+        "merged": "com.example.news.app-merged_res-39:/layout_item_article.xml.flat",
+        "source": "com.example.news.app-main-41:/layout/item_article.xml"
+    },
+    {
+        "merged": "com.example.news.app-merged_res-39:/drawable_ic_bookmark_border.xml.flat",
+        "source": "com.example.news.app-main-41:/drawable/ic_bookmark_border.xml"
+    }
+]

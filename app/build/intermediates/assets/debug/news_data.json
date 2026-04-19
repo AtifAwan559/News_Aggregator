@@ -1,0 +1,84 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "Quantum Leap in AI Research",
+      "description": "Scientists have achieved a major breakthrough in artificial intelligence that could change the world.",
+      "category": "Technology",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+      "isBookmarked": false
+    },
+    {
+      "id": "2",
+      "title": "The Big Game: Finals Tonight",
+      "description": "Everything you need to know about the championship match happening this evening.",
+      "category": "Sports",
+      "imageUrl": "https://images.unsplash.com/photo-1504450758481-7338eba7524a",
+      "isBookmarked": false
+    },
+    {
+      "id": "3",
+      "title": "New Green Energy Source Discovered",
+      "description": "A startup claims to have found a way to harness energy from the atmosphere efficiently.",
+      "category": "Science",
+      "imageUrl": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e",
+      "isBookmarked": false
+    },
+    {
+      "id": "4",
+      "title": "Market Trends: Crypto on the Rise",
+      "description": "Cryptocurrency markets see a significant surge as institutional investors dive in.",
+      "category": "Finance",
+      "imageUrl": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d",
+      "isBookmarked": false
+    },
+    {
+      "id": "5",
+      "title": "Healthy Living: 10 Tips for Longevity",
+      "description": "New study reveals simple lifestyle changes that can add years to your life.",
+      "category": "Health",
+      "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
+      "isBookmarked": false
+    },
+    {
+      "id": "6",
+      "title": "Deep Sea Secrets Unveiled",
+      "description": "Oceanographers discover a hidden ecosystem miles beneath the surface.",
+      "category": "Science",
+      "imageUrl": "https://images.unsplash.com/photo-1484417894907-623942c8ee29",
+      "isBookmarked": false
+    },
+    {
+      "id": "7",
+      "title": "Self-Driving Cars: The Future is Here",
+      "description": "Tesla and Waymo battle for dominance in the autonomous vehicle industry.",
+      "category": "Technology",
+      "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2",
+      "isBookmarked": false
+    },
+    {
+      "id": "8",
+      "title": "World Cup Qualifiers: Results In",
+      "description": "Shocking upsets as top teams fail to qualify for the upcoming world cup.",
+      "category": "Sports",
+      "imageUrl": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2",
+      "isBookmarked": false
+    },
+    {
+      "id": "9",
+      "title": "The Art of Minimalist Living",
+      "description": "How decluttering your physical space can lead to a clearer mind.",
+      "category": "Lifestyle",
+      "imageUrl": "https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5",
+      "isBookmarked": false
+    },
+    {
+      "id": "10",
+      "title": "Mars Colony: 2030 Vision",
+      "description": "SpaceX outlines its ambitious plan to establish a permanent human settlement on Mars.",
+      "category": "Science",
+      "imageUrl": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9",
+      "isBookmarked": false
+    }
+  ]
+}

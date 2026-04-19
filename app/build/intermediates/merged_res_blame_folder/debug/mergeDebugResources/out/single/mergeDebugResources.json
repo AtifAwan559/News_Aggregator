@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\drawable_ic_bookmark_border.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\drawable\\ic_bookmark_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\layout_item_article.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\layout\\item_article.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\drawable_ic_launcher.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\drawable\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\layout_fragment_news_feed.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\layout\\fragment_news_feed.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\drawable_gradient_shadow.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\drawable\\gradient_shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\drawable_ic_bookmark_filled.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\drawable\\ic_bookmark_filled.xml"
+    },
+    {
+        "merged": "com.example.newsapp-debug-78:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.newsapp-main-80:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\layout_fragment_bookmarks.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\layout\\fragment_bookmarks.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\drawable_bg_category_badge.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\drawable\\bg_category_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\drawable_dot_separator.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\drawable\\dot_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-debug-78:\\layout_fragment_news_detail.xml.flat",
+        "source": "C:\\Users\\aawan\\.gradle\\daemon\\9.2.1\\com.example.newsapp-main-80:\\layout\\fragment_news_detail.xml"
+    }
+]

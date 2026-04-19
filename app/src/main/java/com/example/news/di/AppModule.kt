@@ -1,9 +1,11 @@
 package com.example.news.di
 
-import com.example.news.data.local.LocalNewsProvider
+// Duplicate module removed to resolve Hilt binding conflicts with com.example.newsapp.di.AppModule
+/*
 import com.example.news.data.repository.NewsRepositoryImpl
 import com.example.news.domain.repository.NewsRepository
 import com.google.gson.Gson
+import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -12,17 +14,18 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-object AppModule {
+abstract class AppModule {
 
-    @Provides
+    @Binds
     @Singleton
-    fun provideGson(): Gson = Gson()
+    abstract fun bindNewsRepository(
+        newsRepositoryImpl: NewsRepositoryImpl
+    ): NewsRepository
 
-    @Provides
-    @Singleton
-    fun provideNewsRepository(
-        localNewsProvider: LocalNewsProvider
-    ): NewsRepository {
-        return NewsRepositoryImpl(localNewsProvider)
+    companion object {
+        @Provides
+        @Singleton
+        fun provideGson(): Gson = Gson()
     }
 }
+*/

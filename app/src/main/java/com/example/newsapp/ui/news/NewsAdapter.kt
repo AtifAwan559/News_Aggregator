@@ -7,10 +7,11 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.example.newsapp.R
-import com.example.newsapp.data.model.Article
+import com.example.newsapp.domain.model.Article
 import com.example.newsapp.databinding.ItemArticleBinding
 
 class NewsAdapter(
+    private val onItemClick: (Article) -> Unit,
     private val onBookmarkClick: (Article) -> Unit
 ) : ListAdapter<Article, NewsAdapter.ArticleViewHolder>(ArticleDiffCallback) {
 
@@ -29,7 +30,7 @@ class NewsAdapter(
         fun bind(article: Article) {
             binding.apply {
                 tvTitle.text = article.title
-                tvDescription.text = article.description
+                tvDescription.text = article.summary
                 tvCategory.text = article.category.uppercase()
                 
                 ivArticleImage.load(article.imageUrl) {
@@ -47,6 +48,10 @@ class NewsAdapter(
 
                 btnBookmark.setOnClickListener {
                     onBookmarkClick(article)
+                }
+
+                root.setOnClickListener {
+                    onItemClick(article)
                 }
             }
         }

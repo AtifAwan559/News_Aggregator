@@ -1,0 +1,4 @@
+-keep,allowobfuscation,allowshrinking class com.example.newsapp.ui.main.MainViewModel
+-keep,allowobfuscation,allowshrinking class com.example.newsapp.ui.main.MainViewModel
+-keep,allowobfuscation,allowshrinking class com.example.newsapp.ui.news.NewsViewModel
+-keep,allowobfuscation,allowshrinking class com.example.newsapp.ui.news.NewsViewModel

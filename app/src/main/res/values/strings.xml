@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">News Aggregator</string>
+    <string name="app_name">NEWS AGGREGATOR</string>
     <string name="search_hint">Search articles...</string>
     <string name="no_results">No articles found.</string>
     <string name="bookmark">Bookmark</string>
@@ -9,4 +9,6 @@
     <string name="cat_sports">Sports</string>
     <string name="cat_health">Health</string>
     <string name="cat_business">Business</string>
+    <string name="cat_finance">Finance</string>
+    <string name="cat_opinion">Opinion &amp; Editorial</string>
 </resources>

@@ -2,7 +2,7 @@ package com.example.newsapp.ui.news
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.newsapp.data.model.Article
+import com.example.newsapp.domain.model.Article
 import com.example.newsapp.domain.repository.NewsRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
@@ -19,7 +19,7 @@ class NewsViewModel @Inject constructor(
     private val _searchQuery = MutableStateFlow("")
     private val _selectedCategory = MutableStateFlow("All")
 
-    val newsList: StateFlow<List<Article>> = repository.getAllNews()
+    val newsList: StateFlow<List<Article>> = repository.getHeadlines()
         .stateIn(viewModelScope, SharingStarted.Lazily, emptyList())
 
     @OptIn(FlowPreview::class)
@@ -31,13 +31,13 @@ class NewsViewModel @Inject constructor(
         list.filter { article ->
             val matchesCategory = if (category == "All") true else article.category.equals(category, ignoreCase = true)
             val matchesQuery = article.title.contains(query, ignoreCase = true) ||
-                    article.description.contains(query, ignoreCase = true)
+                    article.summary.contains(query, ignoreCase = true)
             matchesCategory && matchesQuery
         }
     }.flowOn(Dispatchers.Default)
         .stateIn(viewModelScope, SharingStarted.Lazily, emptyList())
 
-    val bookmarks: StateFlow<List<Article>> = repository.getBookmarkedNews()
+    val bookmarks: StateFlow<List<Article>> = repository.getBookmarks()
         .stateIn(viewModelScope, SharingStarted.Lazily, emptyList())
 
     fun onSearch(query: String) {
@@ -49,8 +49,8 @@ class NewsViewModel @Inject constructor(
     }
 
     fun toggleBookmark(article: Article) {
-        viewModelScope.launch(Dispatchers.IO) {
-            repository.toggleBookmark(article.id).collect()
+        viewModelScope.launch {
+            repository.toggleBookmark(article.id)
         }
     }
 }

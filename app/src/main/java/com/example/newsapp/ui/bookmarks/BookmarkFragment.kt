@@ -6,14 +6,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.lifecycleScope
-import androidx.lifecycle.repeatOnLifecycle
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.newsapp.databinding.FragmentBookmarksBinding
 import com.example.newsapp.ui.news.NewsAdapter
 import com.example.newsapp.ui.news.NewsViewModel
 import dagger.hilt.android.AndroidEntryPoint
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.repeatOnLifecycle
 import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
@@ -41,9 +42,15 @@ class BookmarkFragment : Fragment() {
     }
 
     private fun setupRecyclerView() {
-        newsAdapter = NewsAdapter { article ->
-            viewModel.toggleBookmark(article)
-        }
+        newsAdapter = NewsAdapter(
+            onItemClick = { article ->
+                val action = BookmarkFragmentDirections.actionBookmarkFragmentToNewsDetailFragment(article)
+                findNavController().navigate(action)
+            },
+            onBookmarkClick = { article ->
+                viewModel.toggleBookmark(article)
+            }
+        )
         binding.rvBookmarks.apply {
             adapter = newsAdapter
             layoutManager = LinearLayoutManager(requireContext())

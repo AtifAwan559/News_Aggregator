@@ -10,6 +10,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.newsapp.R
 import com.example.newsapp.databinding.FragmentNewsFeedBinding
@@ -43,9 +44,15 @@ class NewsFeedFragment : Fragment() {
     }
 
     private fun setupRecyclerView() {
-        newsAdapter = NewsAdapter { article ->
-            viewModel.toggleBookmark(article)
-        }
+        newsAdapter = NewsAdapter(
+            onItemClick = { article ->
+                val action = NewsFeedFragmentDirections.actionNewsFeedFragmentToNewsDetailFragment(article)
+                findNavController().navigate(action)
+            },
+            onBookmarkClick = { article ->
+                viewModel.toggleBookmark(article)
+            }
+        )
         binding.rvNews.apply {
             adapter = newsAdapter
             layoutManager = LinearLayoutManager(requireContext())

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aljazeera_red">#CC0000</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#757575</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">NEWS AGGREGATOR</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="cat_all">All</string>
+    <string name="cat_business">Business</string>
+    <string name="cat_finance">Finance</string>
+    <string name="cat_health">Health</string>
+    <string name="cat_opinion">Opinion &amp; Editorial</string>
+    <string name="cat_science">Science</string>
+    <string name="cat_sports">Sports</string>
+    <string name="cat_tech">Tech</string>
+    <string name="no_results">No articles found.</string>
+    <string name="search_hint">Search articles...</string>
+    <style name="Theme.NewsAggregator" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/aljazeera_red</item>
+    </style>
+</resources>

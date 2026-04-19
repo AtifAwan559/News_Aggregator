@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-@HiltViewModel
+// @HiltViewModel - Commented out to resolve build conflicts with com.example.newsapp
 class NewsViewModel @Inject constructor(
     private val repository: NewsRepository
 ) : ViewModel() {
